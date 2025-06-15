@@ -1,0 +1,171 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Reglas del Proyecto - Club de Lectura
+
+## 1. Objetivo del Proyecto
+Crear una plataforma de clubes de lectura que permita a los usuarios:
+- Suscribirse a diferentes clubes de lectura
+- Acceder a contenido exclusivo
+- Participar en discusiones
+- Gestionar sus suscripciones
+- Recibir notificaciones de nuevas lecturas
+
+## 2. Stack Tecnológico
+
+### Frontend
+- Framework: Next.js 14+ con TypeScript
+- Estilos: Tailwind CSS + Emotion
+- Estado: React Query + Zustand
+- Formularios: React Hook Form
+- Validación: Zod
+- Sistema Operativo: MacOS
+
+### Backend
+- Runtime: Node.js 20+
+- Framework: Express.js
+- Base de datos: PostgreSQL
+- ORM: Prisma
+- Cache: Redis
+- Autenticación: Auth0
+
+### Infraestructura
+- Hosting Frontend: Vercel
+- Hosting Backend: Railway
+- CDN: Cloudflare
+- Monitoreo: Sentry
+- Analytics: Google Analytics
+
+## 3. Proceso de Desarrollo con IA
+
+### Flujo de Trabajo
+1. **Planificación de Feature**
+   - Definición clara de requerimientos
+   - Desglose en tareas técnicas
+   - Identificación de dependencias
+   - Estimación de complejidad
+
+2. **Desarrollo Iterativo**
+   - Desarrollo por componentes pequeños y manejables
+   - Revisión inmediata de cada cambio
+   - Iteración rápida basada en feedback
+   - Documentación inline del código
+
+3. **Control de Calidad**
+   - Revisión de código por el agente IA
+   - Validación de funcionalidad por el desarrollador humano
+   - Testing automatizado de componentes críticos
+   - Verificación de performance
+
+### Convenciones de Código
+- Documentación clara y concisa en inglés
+- Comentarios explicativos para lógica compleja
+- Nombres descriptivos y autoexplicativos
+- Estructura modular y reutilizable
+
+### Versionado
+- Commits semánticos para mejor tracking
+- Branching simplificado (main, feature/*)
+- Pull requests para revisión de cambios mayores
+- Tags para versiones estables
+
+## 4. Estructura del Proyecto
+
+```
+/
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── hooks/
+│   │   ├── services/
+│   │   └── utils/
+│   └── public/
+├── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── services/
+│   │   ├── models/
+│   │   ├── middleware/
+│   │   └── utils/
+│   └── prisma/
+└── shared/
+    └── types/
+```
+
+## 5. Convenciones de Nombrado
+
+### Archivos
+- Componentes React: PascalCase (ej: `BookCard.tsx`)
+- Utilidades: camelCase (ej: `formatDate.ts`)
+- Estilos: kebab-case (ej: `book-card.module.css`)
+
+### Variables y Funciones
+- Variables: camelCase
+- Funciones: camelCase
+- Interfaces/Types: PascalCase con prefijo I/T
+- Constantes: UPPER_SNAKE_CASE
+
+## 6. Ciclo de Desarrollo
+
+### Fase de Planificación
+- Análisis de requerimientos
+- Diseño de arquitectura
+- Definición de endpoints
+- Planificación de UI/UX
+
+### Fase de Implementación
+- Desarrollo incremental
+- Testing continuo
+- Documentación en tiempo real
+- Revisión de código
+
+### Fase de Validación
+- Testing de integración
+- Verificación de performance
+- Revisión de seguridad
+- Optimización
+
+## 7. Métricas de Éxito
+
+### Técnicas
+- Cobertura de tests > 80%
+- Zero critical bugs en producción
+- Uptime > 99.9%
+- Tiempo de respuesta API < 100ms
+
+### Negocio
+- Tasa de conversión > 5%
+- Retención mensual > 60%
+- NPS > 8
+- Tiempo promedio de sesión > 10 minutos
+
+## 8. Documentación
+
+### Requerida
+- README del proyecto
+- Documentación de API
+- Guía de arquitectura
+- Guía de despliegue
+
+### Mantenimiento
+- Documentación inline con el código
+- Actualización continua
+- Ejemplos de uso
+- Notas de cambios importantes
+
+## 9. Comunicación y Colaboración
+
+### Interacción Humano-IA
+- Instrucciones claras y específicas
+- Feedback inmediato sobre cambios
+- Aclaración de dudas en tiempo real
+- Validación de implementaciones
+
+### Gestión de Cambios
+- Documentación de decisiones importantes
+- Registro de problemas y soluciones
+- Tracking de mejoras y optimizaciones
+- Notas de aprendizaje
