@@ -63,16 +63,6 @@ npm run dev
     └── types/
 ```
 
-## 🔧 Variables de Entorno
-
-### Backend (.env)
-```env
-DATABASE_URL="postgresql://postgres:postgres@localhost:5432/afclub?schema=public"
-PORT=3001
-NODE_ENV=development
-JWT_SECRET="your-super-secret-key-change-in-production"
-```
-
 ## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
