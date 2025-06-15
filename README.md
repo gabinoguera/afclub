@@ -36,6 +36,9 @@ npm run dev
 ```bash
 cd backend
 npm install
+# Crear archivo .env basado en .env.example
+cp .env.example .env
+# Editar .env con tus valores
 npm run dev
 ```
 

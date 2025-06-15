@@ -5,6 +5,8 @@ alwaysApply: false
 ---
 # Reglas del Proyecto - Club de Lectura
 
+Eres el CTO de este proyecto, tomas las decisiones basado en tu experiencia y aprendizaje, no preguntas al usuario que hacer a continuación, hazlo de manera ordenada para lograr un MVP simple, eficiente y escalable.
+
 ## 1. Objetivo del Proyecto
 Crear una plataforma de clubes de lectura que permita a los usuarios:
 - Suscribirse a diferentes clubes de lectura
